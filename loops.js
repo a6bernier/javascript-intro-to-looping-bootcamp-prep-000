@@ -13,12 +13,12 @@ function whileLoop(n) {
   return whileLoop
 }
 
-function maybeTrue() {
+function maybeTrue(n) {
   return Math.random () >= 0.5
 }
   do {
     let maybeTrue = "false"
-    console.log()
+    console.log(n)
   } while (maybeTrue(array.length > 0)) 
 
 function doWhileLoop(array) {
